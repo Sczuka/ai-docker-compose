@@ -68,6 +68,8 @@ Starting the AI is done by calling:
 docker compose up -d
 -----
 
+NOTE: You may have to restart docker by executing _sudo systemctl restart docker_ if the GPU is not found.
+
 The Open-WebUI should be accessible through http://127.0.0.1:8080/ after a short while. A wizard for creating an initial admin account will start during the first login.
 
 The Ollama is accessible through http://127.0.0.1:11434/ for hooking up your IDE, if needed.
