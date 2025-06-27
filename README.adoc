@@ -4,7 +4,9 @@
 
 == Setup
 
-This setup describes the steps required for runnning a local AI with WSL and docker-compose, using a NVIDIA GPU for acceleration. 
+This setup describes the steps required for runnning a local AI with WSL and docker-compose, using a NVIDIA GPU for acceleration.
+
+NOTE: Make sure that the NVIDIA drivers are installed properly (https://www.nvidia.com/en-us/drivers/).
 
 === Setting up WSL
 
