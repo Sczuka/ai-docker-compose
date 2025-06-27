@@ -43,7 +43,7 @@ curl -s -L https://nvidia.github.io/libnvidia-container/stable/deb/nvidia-contai
 .Installation of the nvidia container toolkit
 [source, sh]
 -----
-sudo apt-get install -y nvidia-container-toolkit
+sudo apt-get update && sudo apt-get install -y nvidia-container-toolkit
 -----
 
 === Setting up docker-compose
