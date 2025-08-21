@@ -60,6 +60,8 @@ sudo apt install docker.io docker-compose-v2
 
 == Starting the AI
 
+WARNING: Before starting docker-compose run the `init.sh` file in order to create a random password, used to secure the services.
+
 Starting the AI is done by calling:
 
 .Starting the docker-compose.yml in detached mode (-d)
@@ -73,6 +75,11 @@ NOTE: You may have to restart docker by executing _sudo systemctl restart docker
 The Open-WebUI should be accessible through http://127.0.0.1:8080/ after a short while. A wizard for creating an initial admin account will start during the first login.
 
 The Ollama is accessible through http://127.0.0.1:11434/ for hooking up your IDE, if needed.
+
+=== How to proceed
+
+* Create an account in http://127.0.0.1:8080/[Open-WebUI] using
+* Pull the images `bge-m3:latest` and `mistral-nemo:latest`, required for the LightRAG Knowledge Graph generation
 
 == Monitoring
 
