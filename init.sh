@@ -1,6 +1,8 @@
-if [[ ! -e "./.env" ]]; then
+#!/bin/sh
+
+if [ ! -e "./.env" ]; then
   echo "[INFO] Creating '.env' file..."
-  if [[ -z $(which pwgen) ]]; then
+  if [ -z $(which pwgen) ]; then
     echo "[ERROR] Please install pwgen, using 'apt install pwgen'"
   fi
 
